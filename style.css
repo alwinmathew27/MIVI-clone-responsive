@@ -1,0 +1,587 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+a {
+  color: white;
+}
+/* ----------------Nav Section-------------- */
+nav .nav_container {
+  width: 100%;
+  padding: 20px 0;
+  background: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .nav_container .nav_list ul li {
+  display: inline-block;
+  font-size: 17px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+nav .nav_container .nav_icons .fa-solid {
+  margin-right: 20px;
+}
+a:hover {
+  text-decoration: underline 3px greenyellow;
+  text-underline-offset: 10px;
+}
+label i {
+  color: #fff;
+  font-size: 25px;
+}
+#checking {
+  display: none;
+}
+label {
+  display: none;
+}
+/* ----------------Banner section----------------- */
+#banner .banner_div {
+  background: url(image/banner-web.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+  width: 100%;
+}
+#banner .headline1 {
+  font-size: 50px;
+  padding: 90px 0px 20px 0px;
+  font-weight: bold;
+  text-align: center;
+}
+#banner .headline .banner_paragraph {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+/* -------------------Poducts details---------------------- */
+#product_details {
+  margin: 0% 50px;
+}
+#product_details .card_container1 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#product_details .card_container1 .product_card {
+  width: 310px;
+  height: 670px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 40px;
+}
+#product_details .card_container1 .product_card .card_image {
+  width: 270px;
+  height: 330px;
+  background-color: #fae8e7;
+  border-radius: 30px;
+  padding: 1.25rem;
+}
+#product_details .card_container1 .product_card .card_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+#product_details .card_container1 .product_card .product_text .product_name {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+#product_details .card_container1 .product_card .features_text {
+  color: gray;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+}
+#product_details .card_container1 .product_card .product_text .price_text {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+#product_details .card_container1 .product_card .product_text .price_text span {
+  text-decoration: line-through;
+  color: darkgrey;
+  font-size: 18px;
+}
+
+#product_details .card_container1 .product_card .product_text .buy_button {
+  padding: 16px 65px;
+  margin-top: 17px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+/* -------------------User Review Section --------------- */
+#reviews {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#reviews .title_container {
+  background-color: #f6f6f6;
+  width: 80%;
+  margin: 30px 120px;
+  padding: 49px 20px;
+  border-radius: 20px;
+}
+#reviews .title_container h2 {
+  font-size: 55px;
+  padding-bottom: 30px;
+}
+#reviews .review_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f6f6f6;
+  flex-wrap: wrap;
+}
+#reviews .review_container .overoll_rating_text {
+  width: 25%;
+}
+#reviews .review_container .overoll_rating_text h3 {
+  font-size: 45px;
+}
+#reviews .review_container .star_rating {
+  width: 24%;
+}
+#reviews .review_container .star_rating img {
+  width: 100%;
+}
+#reviews .review_container .points_rating {
+  display: flex;
+  gap: 10px;
+  width: 30%;
+}
+#reviews .review_container .points_rating img {
+  width: 100%;
+}
+/* ------------headset features section----------------------------- */
+#headset_features {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding-top: 50px;
+}
+#headset_features .feature_headline {
+  margin: 0 auto;
+  width: 500px;
+  background-color: #f6f6f6;
+}
+#headset_features h4 {
+  font-size: 50px;
+  color: #484955;
+  text-align: center;
+}
+
+#headset_features .feature_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  padding: 60px 0;
+  flex-wrap: wrap;
+}
+#headset_features .feature_container .feature_card {
+  width: 260px;
+  height: 390px;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 5px;
+}
+#headset_features .feature_container .feature_card .image_div {
+  width: 250;
+  height: 170px;
+  background-color: #f6f6f6;
+  border-radius: 15px;
+}
+#headset_features .feature_container .feature_card .image_div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+#headset_features .feature_container .feature_card .text_div .feature_title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+#headset_features
+  .feature_container
+  .feature_card
+  .text_div
+  .feature_paragraph {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(59, 59, 59);
+}
+/* ------------advantages section-------------- */
+
+#product_advantages {
+  background-color: #f6f6f6;
+  width: 100%;
+}
+#product_advantages .main_headline {
+  margin: 0 auto;
+  width: 500px;
+}
+#product_advantages .main_headline h5 {
+  font-size: 50px;
+  color: #484955;
+  text-align: center;
+  padding-top: 40px;
+}
+#product_advantages .main_card_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 17px;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  flex-wrap: wrap;
+}
+
+#product_advantages .main_card_container .advantage_cards {
+  width: 260px;
+  height: 370px;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+#product_advantages .main_card_container .advantage_cards .card_image_div {
+  width: 260px;
+  height: 170px;
+  background-color: #f6f6f6;
+  border-radius: 15px;
+}
+#product_advantages .main_card_container .advantage_cards .card_image_div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+#product_advantages
+  .main_card_container
+  .advantage_cards
+  .card_texts
+  .title_cards {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+#product_advantages
+  .main_card_container
+  .advantage_cards
+  .card_texts
+  .paragraph_cards {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(59, 59, 59);
+}
+/* ---------------faq section------------------ */
+#faq_section {
+  width: 100%;
+}
+
+#faq_section .faq_title {
+  width: 390px;
+  margin: 0 auto;
+}
+#faq_section .faq_title h6 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding: 70px 0;
+  color: #484955;
+}
+#faq_section .faq_container {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 100px;
+}
+#faq_section .faq_container .question_div {
+  width: 70%;
+  background-color: rgb(0, 0, 0);
+}
+#faq_section .faq_container .question_div .questions {
+  font-size: 26px;
+  font-weight: bold;
+  padding: 20px;
+  color: #f6f6f6;
+}
+/* -------------------------------footer section --------------------*/
+#footer_section {
+  width: 100%;
+}
+#footer_section .footer_container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  background: radial-gradient(
+    572.27% 153.85% at 48.42% 21.8%,
+    #5b6378 0,
+    #303642 39.67%,
+    #111216 99.2%
+  );
+  padding: 40px 0 23px;
+  width: 100%;
+  margin: 0% auto;
+  flex-wrap: wrap;
+}
+#footer_section .footer_container h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f6f6f6;
+  cursor: pointer;
+  padding: 20px 0 20px;
+}
+#footer_section .footer_container .contact_details .contact_numbers {
+  display: flex;
+  gap: 10px;
+}
+#footer_section .footer_container .contact_details .whatsapp_details {
+  display: flex;
+  gap: 10px;
+}
+#footer_section .footer_container .contact_details .whatsapp_icon {
+  padding: 20px 0 20px;
+  width: 32px;
+  height: 32px;
+}
+#footer_section .footer_container .contact_details .whatsapp_icon img {
+  width: 100%;
+  height: 100%;
+}
+#footer_section .footer_container .contact_icon img {
+  padding-top: 17px;
+}
+#footer_section .footer_container ul li {
+  color: #a7abb5;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 15px;
+}
+#footer_section .alternative_Products {
+  background-color: #3f4554;
+}
+#footer_section .alternative_Products .alternative_Product_container {
+  display: flex;
+  justify-content: center;
+  padding: 0px 0 30px;
+  width: 100%;
+  margin: 0% auto;
+  font-size: 15px;
+  gap: 75px;
+  flex-wrap: wrap;
+}
+
+#footer_section .alternative_Products h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f6f6f6;
+  cursor: pointer;
+  margin: 0% 250px;
+  padding: 20px 0 20px;
+}
+#footer_section .alternative_Products .alternative_Product_container ul {
+  padding-top: 0px;
+}
+#footer_section .alternative_Products .alternative_Product_container ul li {
+  color: #a7abb5;
+  margin-top: 5px;
+}
+#footer_section .soundbar_details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #3f4554;
+  width: 100%;
+  margin: 0% auto;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+#footer_section .soundbar_details h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 20px 0;
+}
+#footer_section .soundbar_details .text_color {
+  color: #a7abb5;
+}
+#footer_section .earphones_details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: #3f4554;
+  padding-bottom: 20px;
+  padding-left: 245px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+#footer_section .earphones_details h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 20px 0;
+}
+#footer_section .earphones_details .text_colors {
+  color: #a7abb5;
+}
+#footer_section .social_media {
+  background-color: #323844;
+}
+#footer_section .social_media h2 {
+  font-size: 14px;
+  color: #a7abb5;
+  text-align: center;
+  padding: 30px 0 5px;
+}
+#footer_section .social_media_icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#footer_section .social_media .copyright_notice {
+  padding: 20px 0 30px;
+  text-align: center;
+  color: #95989d;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  /* ----------------Nav section-------------- */
+  nav .nav_container .nav_list ul {
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    background: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    transition: all 400ms;
+  }
+  nav .nav_container .nav_list ul li {
+    display: block;
+    margin: 30px 0;
+  }
+  nav .nav_container .nav_list ul li a {
+    font-size: 18px;
+  }
+  nav .nav_container .nav_icons {
+    display: none;
+  }
+  label {
+    display: block;
+    left: 0%;
+  }
+  #checking:checked ~ ul {
+    left: 0;
+  }
+  #checking:checked ~ label i::before {
+    content: "\f00d";
+  }
+
+  /* -------------review section---------- */
+
+  #reviews {
+    width: 100%;
+    text-align: center;
+  }
+  #reviews .title_container {
+    background-color: #f6f6f6;
+    width: 80%;
+    margin: 30px 15px;
+    padding: 49px 20px;
+    border-radius: 20px;
+  }
+  #reviews .title_container h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+  #reviews .review_container {
+    flex-wrap: wrap;
+    display: block;
+
+    text-align: center;
+  }
+  #reviews .review_container .overoll_rating_text {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  #reviews .review_container .star_rating {
+    margin-bottom: 20px;
+    margin: 0 auto;
+  }
+  #reviews .review_container .star_rating p {
+    font-size: 10px;
+  }
+  #reviews .review_container .points_rating {
+    margin-top: 50px;
+    margin: 0% 25px;
+  }
+
+  /* ------------headset features section----------------------------- */
+
+  #headset_features .feature_headline {
+    width: 240px;
+  }
+  #headset_features h4 {
+    font-size: 20px;
+  }
+
+  /* ------------advantages section-------------- */
+
+  #product_advantages .main_headline {
+    width: 240px;
+  }
+  #product_advantages .main_headline h5 {
+    font-size: 30px;
+  }
+  /* ---------------faq section------------------ */
+
+  #faq_section .faq_title {
+    width: 195px;
+  }
+  #faq_section .faq_title h6 {
+    font-size: 30px;
+  }
+  /* --------footer section------ */
+  #footer_section .alternative_Products h4 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #f6f6f6;
+    cursor: pointer;
+    margin: 0% 100px;
+  }
+  #footer_section .earphones_details {
+    padding-bottom: 10px;
+    padding-left: 90px;
+    flex-wrap: wrap;
+  }
+}
